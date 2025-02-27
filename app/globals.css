@@ -36,7 +36,7 @@
 }
 
 .link {
-  @apply m-8 text-3xl;
+  @apply m-8 text-3xl underline decoration-solid;
 }
 
 body {
