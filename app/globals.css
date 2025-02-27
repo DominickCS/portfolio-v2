@@ -32,11 +32,12 @@
 }
 
 .pfp {
-  @apply motion-preset-expand motion-delay-500 motion-blur-in-md;
+  @apply motion-preset-expand motion-delay-500
+    motion-blur-in-md;
 }
 
 .link {
-  @apply m-8 text-3xl underline decoration-solid;
+  @apply m-8 text-xl underline decoration-solid;
 }
 
 body {

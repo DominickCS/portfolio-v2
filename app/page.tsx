@@ -1,4 +1,9 @@
+import React from "react";
 import Image from "next/image";
+
+const imageStyle = {
+  borderRadius: "50%",
+};
 
 export default function Home() {
   return (
@@ -10,9 +15,10 @@ export default function Home() {
       <Image
         src={`/pfp.jpg`}
         alt="A photo of me, Dominick"
-        width={400}
+        width={600}
         height={1}
         className="pfp flex justify-center mx-auto py-8"
+        style={imageStyle}
       ></Image>
       <h2 className="text-2xl text-center caption">
         I craft sleek, scalable, and high-performance web experiences.

@@ -24,6 +24,9 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        <footer className="text-center opacity-50">
+          Copyright 2025 DominickCS
+        </footer>
       </body>
     </html>
   );
