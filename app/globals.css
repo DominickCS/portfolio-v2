@@ -14,7 +14,20 @@
   }
 }
 
+.caption {
+  @apply motion-preset-expand motion-delay-200;
+}
+
+.intro {
+  @apply motion-preset-expand motion-delay-100;
+}
+
+.handEmoji {
+  @apply motion-delay-100 motion-rotate-loop-45 motion-translate-y-loop-25;
+}
+
 .pfp {
+  @apply motion-preset-expand motion-delay-500;
 }
 
 .link {
