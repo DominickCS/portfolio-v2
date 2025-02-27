@@ -14,6 +14,11 @@
   }
 }
 
+.introContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .caption {
   @apply motion-preset-expand motion-delay-200;
 }
@@ -23,11 +28,11 @@
 }
 
 .handEmoji {
-  @apply motion-delay-100 motion-rotate-loop-45 motion-translate-y-loop-25;
+  @apply motion-delay-300 motion-rotate-loop-45 motion-translate-y-loop-25;
 }
 
 .pfp {
-  @apply motion-preset-expand motion-delay-500;
+  @apply motion-preset-expand motion-delay-500 motion-blur-in-md;
 }
 
 .link {
