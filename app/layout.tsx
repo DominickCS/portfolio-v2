@@ -1,9 +1,10 @@
+import React from "react";
 import type { Metadata } from "next";
-import { Kanit } from "next/font/google";
+import { Russo_One } from "next/font/google";
 import Navbar from "./ui/navbar";
 import "./globals.css";
 
-const kanit = Kanit({
+const russoOne = Russo_One({
   subsets: ["latin"],
   weight: "400",
 });
@@ -19,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={kanit.className}>
+    <html lang="en" className={russoOne.className}>
       <body>
         <Navbar />
         {children}

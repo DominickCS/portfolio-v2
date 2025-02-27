@@ -1,3 +1,3 @@
 export default function aboutMe() {
-  return <p>About Me Page</p>;
+  return <p className="text-center text-2xl"></p>;
 }
