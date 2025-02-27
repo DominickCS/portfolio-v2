@@ -14,7 +14,23 @@
   }
 }
 
+.pfp {
+}
+
+.link {
+  @apply m-8 text-2xl;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
+  margin: 0;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  min-height: 50px;
 }

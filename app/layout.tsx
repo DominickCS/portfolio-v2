@@ -20,8 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={kanit.className}>
-      <body>{children}</body>
-      <Navbar />
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
