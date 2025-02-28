@@ -4,9 +4,9 @@ export default function aboutMe() {
   return (
     <>
       <main className="about">
-        <div className="text-center pb-8">
+        <div className="text-center py-4">
           <h2 className="text-3xl pb-8 underline">About Me</h2>
-          <p className="block m-auto max-w-3xl text-lg">
+          <p className="block m-auto max-w-xs md:max-w-3xl text-md md:text-xl">
             I am a highly motivated and skilled Software Engineering student. I
             am currently enrolled at Western Governors University under the
             BWSWE program. I currently possess a Associate’s degree in Computer
@@ -21,7 +21,7 @@ export default function aboutMe() {
           </p>
         </div>
         <div className="text-center">
-          <h2 className="text-3xl underline">Language Proficiencies</h2>
+          <h2 className="text-3xl underline pt-4">Language Proficiencies</h2>
         </div>
         <div className="flex justify-evenly py-12 items-center text-center">
           <div>
