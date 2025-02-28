@@ -8,13 +8,13 @@ export default function Navbar() {
         Home
       </Link>
       <Link className="link" href={`/aboutme`}>
-        About Me
+        About
       </Link>
       <Link className="link" href={`/projects`}>
         Projects
       </Link>
       <Link className="link" href={`/contact`}>
-        Contact Me
+        Contact
       </Link>
     </div>
   );
