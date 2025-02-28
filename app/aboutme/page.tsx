@@ -3,22 +3,24 @@ import Image from "next/image";
 export default function aboutMe() {
   return (
     <>
-      <div className="text-center mb-4">
-        <h2 className="text-3xl mb-4">Biography</h2>
-        <p className="block m-auto max-w-lg text-sm">
-          A highly motivated and skilled Software Development Student with an
-          Associate’s degree in Computer Networking, offering a solid foundation
-          in Python, HTML, CSS, and JavaScript. With a deep understanding of
-          computer systems and a track record of hands-on project experience, I
-          thrive in fast-paced, innovative environments. As a fast learner, I'm
-          committed to expanding my expertise and delivering impactful,
-          results-driven solutions. Ready to apply my growing portfolio of live
-          project demos to contribute to forward-thinking teams and drive
-          technological success.
+      <div className="text-center pb-8">
+        <h2 className="text-3xl pb-8 underline">Who Am I?</h2>
+        <p className="block m-auto max-w-4xl text-lg">
+          I am a highly motivated and skilled Software Engineering student. I am
+          currently enrolled at Western Governors University under the BWSWE
+          program. I currently possess a Associate’s degree in Computer
+          Networking from Collin County Community College. I am seeking
+          opportunity of my skillset in as a Front-End Developer. I have a deep
+          understanding of computer systems and a proven track record of project
+          experience. I thrive in fast-paced, innovative environments. As a fast
+          learner, I'm committed to expanding my expertise and delivering
+          impactful, results-driven solutions. Ready to apply my growing
+          portfolio of live project demos to contribute to forward-thinking
+          teams and drive technological success.
         </p>
       </div>
       <div className="text-center">
-        <h2 className="text-3xl">Language Profficienies</h2>
+        <h2 className="text-3xl underline">Language Proficiencies</h2>
       </div>
       <div className="flex justify-evenly py-12 items-center text-center">
         <div>
@@ -50,6 +52,28 @@ export default function aboutMe() {
             width={80}
           ></Image>
           <p className="text-2xl mt-2 mb-2">Java</p>
+        </div>
+      </div>
+      <div className="flex justify-evenly py-12 items-center text-center">
+        <div>
+          <Image
+            className="block m-auto"
+            src={"/nextjs.png"}
+            alt="The NextJS Framework Logo"
+            height={80}
+            width={80}
+          ></Image>
+          <p className="text-2xl mt-2 mb-2">NextJS</p>
+        </div>
+        <div>
+          <Image
+            className="block m-auto"
+            src={"/tailwind.png"}
+            alt="The Tailwind CSS Logo"
+            height={80}
+            width={80}
+          ></Image>
+          <p className="text-2xl mt-2 mb-2">Tailwind CSS</p>
         </div>
       </div>
     </>
