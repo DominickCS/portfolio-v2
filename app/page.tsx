@@ -7,7 +7,7 @@ const imageStyle = {
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main>
       <div className="introContainer text-3xl text-center py-2">
         <h1 className="text-3xl text-center pr-2">
           Hi, I’m <span className="motion-preset-typewriter-[8]">Dominick</span>
@@ -17,12 +17,12 @@ export default function Home() {
       <Image
         src={`/pfp.jpg`}
         alt="A photo of me, Dominick"
-        width={600}
+        width={500}
         height={1}
         className="pfp flex justify-center mx-auto py-8"
         style={imageStyle}
       ></Image>
-      <h2 className="text-2xl text-center caption">
+      <h2 className="text-2xl text-center caption py-8">
         I craft sleek, scalable, and high-performance web experiences.
       </h2>
     </main>

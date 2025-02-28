@@ -18,7 +18,7 @@ export default function Projects() {
           </Link>
         </Button>
       </div>
-      <p className="text-center text-xl p-16">
+      <p className="text-center text-xl py-16">
         You can find all of my projects on my GitHub profile!
       </p>
     </div>
