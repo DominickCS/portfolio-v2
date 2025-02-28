@@ -4,4 +4,5 @@ This serves as my developer portfolio.
 
 ## TO-DO
 
-- Mobile Formatting (Pages, Navbar, etc)
+- Add Contact Me form or info
+- Add Experience to the about me section
