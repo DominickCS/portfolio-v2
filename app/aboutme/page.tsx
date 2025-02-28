@@ -6,15 +6,25 @@ export default function aboutMe() {
       <div className="text-center">
         <p className="text-sm">Hello World!</p>
       </div>
-      <div className="flex justify-evenly">
+      <div className="text-center">
+        <h1 className="text-3xl">Language Profficienies</h1>
+      </div>
+      <div className="flex justify-evenly py-12 items-center">
         <div>
-          <p>1</p>
+          <Image
+            className="block m-auto"
+            src={"/js.svg"}
+            alt="The JavaScript Programming Language Logo"
+            height={80}
+            width={80}
+          ></Image>
+          <p className="text-2xl mt-2 mb-2">Javascript</p>
         </div>
         <div>
-          <p>2</p>
+          <p className="text-2xl mt-2 mb-2">Python</p>
         </div>
         <div>
-          <p>3</p>
+          <p className="text-2xl mt-2 mb-2">Java</p>
         </div>
       </div>
     </>
