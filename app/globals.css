@@ -41,7 +41,7 @@
 }
 
 .link {
-  @apply m-8 text-xl underline decoration-solid;
+  @apply m-8 text-2xl underline decoration-dotted;
 }
 
 body {

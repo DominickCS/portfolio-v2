@@ -6,7 +6,7 @@ export default function aboutMe() {
       <main className="about">
         <div className="text-center pb-8">
           <h2 className="text-3xl pb-8 underline">Who Am I?</h2>
-          <p className="block m-auto max-w-4xl text-lg">
+          <p className="block m-auto max-w-3xl text-lg">
             I am a highly motivated and skilled Software Engineering student. I
             am currently enrolled at Western Governors University under the
             BWSWE program. I currently possess a Associate’s degree in Computer

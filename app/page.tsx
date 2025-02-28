@@ -9,7 +9,9 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <div className="introContainer text-3xl text-center intro">
-        <h1 className="text-3xl text-center pr-2">Hi, I’m Dominick</h1>
+        <h1 className="text-3xl text-center pr-2">
+          Hi, I’m <span className="motion-preset-typewriter-[8]">Dominick</span>
+        </h1>
         <p className="handEmoji pl-2">👋</p>
       </div>
       <Image
