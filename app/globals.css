@@ -29,7 +29,7 @@
 }
 
 .link {
-  @apply m-8 text-2xl underline decoration-dotted;
+  @apply m-2 md:m-8 text-2xl underline decoration-dotted;
 }
 
 body {

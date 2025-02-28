@@ -4,22 +4,32 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-center pb-8 items-center">
-      <Link className="link" href={`/`}>
-        Home
-      </Link>
-      <Link className="link" href={`/aboutme`}>
-        About
-      </Link>
-      <Link className="link" href={`/projects`}>
-        Projects
-      </Link>
-      <Link className="link" href={`/contact`}>
-        Contact
-      </Link>
-      <div className="pl-8">
+    <>
+      <div className="flex mt-4 justify-center">
         <ModeToggle></ModeToggle>
       </div>
-    </div>
+      <div className="flex flex-wrap py-6 justify-center">
+        <div>
+          <Link className="link" href={`/`}>
+            Home
+          </Link>
+        </div>
+        <div>
+          <Link className="link" href={`/aboutme`}>
+            About
+          </Link>
+        </div>
+        <div>
+          <Link className="link" href={`/projects`}>
+            Projects
+          </Link>
+        </div>
+        <div>
+          <Link className="link" href={`/contact`}>
+            Contact
+          </Link>
+        </div>
+      </div>
+    </>
   );
 }
