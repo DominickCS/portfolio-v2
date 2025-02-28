@@ -19,7 +19,7 @@ export default function Home() {
         alt="A photo of me, Dominick"
         width={600}
         height={1}
-        className="pfp flex justify-center mx-auto py-24"
+        className="pfp flex justify-center mx-auto py-8"
         style={imageStyle}
       ></Image>
       <h2 className="text-2xl text-center caption">
