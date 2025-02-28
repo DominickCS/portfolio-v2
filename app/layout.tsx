@@ -1,3 +1,4 @@
+import { ThemeProvider } from "@/components/theme-provider";
 import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -22,11 +23,18 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <body>
-        <Navbar />
-        {children}
-        <footer className="text-center opacity-50">
-          Copyright © 2025 - DominickCS
-        </footer>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Navbar />
+          {children}
+          <footer className="text-center opacity-50">
+            Copyright © 2025 - DominickCS
+          </footer>
+        </ThemeProvider>
       </body>
     </html>
   );

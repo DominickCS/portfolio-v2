@@ -44,8 +44,6 @@ footer {
   min-height: 50px;
 }
 
-
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -101,8 +99,6 @@ footer {
     --chart-5: 340 75% 55%;
   }
 }
-
-
 
 @layer base {
   * {

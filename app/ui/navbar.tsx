@@ -1,9 +1,10 @@
+import { ModeToggle } from "@/components/ui/darkmodetoggle";
 import React from "react";
 import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-center pb-8">
+    <div className="flex justify-center pb-8 items-center">
       <Link className="link" href={`/`}>
         Home
       </Link>
@@ -16,6 +17,9 @@ export default function Navbar() {
       <Link className="link" href={`/contact`}>
         Contact
       </Link>
+      <div className="pl-8">
+        <ModeToggle></ModeToggle>
+      </div>
     </div>
   );
 }
