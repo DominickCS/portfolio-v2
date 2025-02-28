@@ -1,10 +1,10 @@
 import React from "react";
 import type { Metadata } from "next";
-import { Russo_One } from "next/font/google";
+import { Inter } from "next/font/google";
 import Navbar from "./ui/navbar";
 import "./globals.css";
 
-const russoOne = Russo_One({
+const inter = Inter({
   subsets: ["latin"],
   weight: "400",
 });
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={russoOne.className}>
+    <html lang="en" className={inter.className}>
       <body>
         <Navbar />
         {children}

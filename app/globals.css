@@ -19,6 +19,10 @@
   justify-content: center;
 }
 
+.about {
+  @apply motion-preset-expand;
+}
+
 .caption {
   @apply motion-preset-expand motion-delay-200;
 }
