@@ -12,6 +12,7 @@ Thumbs.db
 # Local environment files
 .env.local
 .env.*.local
+next-env.d.ts
 
 # Logs
 *.log
