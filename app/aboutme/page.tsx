@@ -59,12 +59,12 @@ export default function aboutMe() {
           <div>
             <Image
               className="block m-auto"
-              src={"/nextjs.png"}
-              alt="The NextJS Framework Logo"
+              src={"/react.png"}
+              alt="The React Framework Logo"
               height={80}
               width={80}
             ></Image>
-            <p className="text-2xl mt-2 mb-2">NextJS</p>
+            <p className="text-2xl mt-2 mb-2">React</p>
           </div>
           <div>
             <Image
@@ -75,6 +75,18 @@ export default function aboutMe() {
               width={80}
             ></Image>
             <p className="text-2xl mt-2 mb-2">Tailwind CSS</p>
+          </div>
+        </div>
+        <div className="flex justify-evenly py-12 items-center text-center">
+          <div>
+            <Image
+              className="block m-auto"
+              src={"/nextjs.png"}
+              alt="The NextJS Framework Logo"
+              height={80}
+              width={80}
+            ></Image>
+            <p className="text-2xl mt-2 mb-2">NextJS</p>
           </div>
         </div>
       </main>
