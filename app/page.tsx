@@ -8,7 +8,7 @@ const imageStyle = {
 export default function Home() {
   return (
     <main>
-      <div className="introContainer text-3xl text-center pt-4">
+      <div className="introContainer text-3xl text-center pt-4 intro">
         <h1 className="text-3xl text-center pr-2">
           Hi, I’m <span className="motion-preset-typewriter-[8]">Dominick</span>
         </h1>
