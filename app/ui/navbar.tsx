@@ -25,7 +25,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div>
-          <Link className="link" href={`/contact`}>
+          <Link className="link" href={"mailto:dominick.smith938@gmail.com"}>
             Contact
           </Link>
         </div>
