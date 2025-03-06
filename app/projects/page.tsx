@@ -44,7 +44,7 @@ export default function Projects() {
         </Link>
       </div>
       <div className="flex justify-center py-6">
-        <Button asChild className="p-8 text-xl">
+        <Button asChild className="p-8 text-xl hover:motion-preset-pulse-sm">
           <Link
             href={"https://github.com/DominickCS"}
             rel="noopener noreferrer"
