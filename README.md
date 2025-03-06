@@ -2,7 +2,12 @@
 
 This serves as my developer portfolio.
 
-## TO-DO
+## Building Instructions
 
-- Add Contact Me form or info
-- Add Experience to the about me section
+Run the following
+
+1. `npm run build`
+
+2. `npm run start`
+
+This will start the project on the server!
