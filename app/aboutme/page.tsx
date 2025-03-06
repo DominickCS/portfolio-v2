@@ -4,9 +4,9 @@ export default function aboutMe() {
   return (
     <>
       <main className="about">
-        <div className="text-center py-4">
-          <h2 className="text-3xl pb-8 underline">About Me</h2>
-          <p className="block m-auto max-w-xs md:max-w-3xl text-md md:text-xl">
+        <div className="text-center">
+          <h2 className="text-3xl py-6 underline">About Me</h2>
+          <p className="block m-auto max-w-xs md:max-w-3xl text-md md:text-xl py-6">
             I am a highly motivated and skilled Software Engineering student. I
             am currently enrolled at Western Governors University under the
             BWSWE program. I currently possess a Associate’s degree in Computer
@@ -21,7 +21,24 @@ export default function aboutMe() {
           </p>
         </div>
         <div className="text-center">
-          <h2 className="text-3xl underline pt-4">Language Proficiencies</h2>
+          <h2 className="text-3xl underline py-6">Work Experience</h2>
+          <p className="block m-auto max-w-xs md:max-w-3xl text-md md:text-xl py-6">
+            In my current role at Global IP Networks, I work as a Datacenter
+            Technician, where I have the privilege of gaining hands-on
+            experience in the dynamic field of infrastructure technology. Being
+            immersed in the very systems that power the code I write has
+            deepened my understanding and fueled my passion for both the
+            hardware and software aspects of development. Every day presents new
+            challenges, from linking network cross-connects to addressing
+            power-related issues. I thrive in this environment, constantly
+            seeking out opportunities to expand my skillset and enhance my
+            problem-solving abilities. With each new experience, I grow both
+            technically and creatively, sharpening my expertise and driving my
+            curiosity to explore the infinite potential of the tech world.
+          </p>
+        </div>
+        <div className="text-center">
+          <h2 className="text-3xl underline py-6">Language Proficiencies</h2>
         </div>
         <div className="flex justify-evenly py-12 items-center text-center">
           <div>
