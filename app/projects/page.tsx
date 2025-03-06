@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div className="motion-preset-expand">
       <div>
-        <h1 className="text-center text-3xl underline py-6">Projects</h1>
+        <h1 className="text-center text-3xl py-6">Featured Projects ⭐</h1>
         <p className="text-center text-xl pb-6">
           You can find all of my projects on my GitHub profile!
         </p>

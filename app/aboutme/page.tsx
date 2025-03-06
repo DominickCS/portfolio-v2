@@ -4,9 +4,9 @@ export default function aboutMe() {
   return (
     <>
       <main className="about">
-        <div className="text-center">
-          <h2 className="text-3xl py-6 underline">About Me</h2>
-          <p className="block m-auto max-w-xs md:max-w-3xl text-md md:text-xl py-6">
+        <div className="block m-auto max-w-xs md:max-w-3xl text-center">
+          <h2 className="text-3xl py-6 motion-preset-seesaw-sm">About Me</h2>
+          <p className="text-md md:text-xl py-6">
             I am a highly motivated and skilled Software Engineering student. I
             am currently enrolled at Western Governors University under the
             BWSWE program. I currently possess a Associate’s degree in Computer
@@ -20,9 +20,11 @@ export default function aboutMe() {
             forward-thinking teams and drive technological success.
           </p>
         </div>
-        <div className="text-center">
-          <h2 className="text-3xl underline py-6">Work Experience</h2>
-          <p className="block m-auto max-w-xs md:max-w-3xl text-md md:text-xl py-6">
+        <div className="block m-auto max-w-xs md:max-w-3xl text-center">
+          <h2 className="text-3xl py-6 motion-preset-seesaw-sm">
+            Work Experience
+          </h2>
+          <p className="text-md md:text-xl py-6">
             In my current role at Global IP Networks, I work as a Datacenter
             Technician, where I have the privilege of gaining hands-on
             experience in the dynamic field of infrastructure technology. Being
@@ -37,11 +39,13 @@ export default function aboutMe() {
             curiosity to explore the infinite potential of the tech world.
           </p>
         </div>
-        <div className="text-center">
-          <h2 className="text-3xl underline py-6">Language Proficiencies</h2>
+        <div className="block m-auto max-w-xs md:max-w-3xl text-center">
+          <h2 className="text-3xl py-6 motion-preset-seesaw-sm">
+            Language Proficiencies
+          </h2>
         </div>
         <div className="flex justify-evenly py-12 items-center text-center">
-          <div>
+          <div className="hover:motion-preset-spin">
             <Image
               className="block m-auto"
               src={"/js.svg"}
@@ -51,7 +55,7 @@ export default function aboutMe() {
             ></Image>
             <p className="text-2xl mt-2 mb-2">Javascript</p>
           </div>
-          <div>
+          <div className="hover:motion-preset-spin">
             <Image
               className="block m-auto"
               src={"/python.png"}
@@ -61,7 +65,7 @@ export default function aboutMe() {
             ></Image>
             <p className="text-2xl mt-2 mb-2">Python</p>
           </div>
-          <div>
+          <div className="hover:motion-preset-spin">
             <Image
               className="block m-auto"
               src={"/java.png"}
@@ -73,7 +77,7 @@ export default function aboutMe() {
           </div>
         </div>
         <div className="flex justify-evenly py-12 items-center text-center">
-          <div>
+          <div className="hover:motion-preset-spin">
             <Image
               className="block m-auto"
               src={"/react.png"}
@@ -83,7 +87,7 @@ export default function aboutMe() {
             ></Image>
             <p className="text-2xl mt-2 mb-2">React</p>
           </div>
-          <div>
+          <div className="hover:motion-preset-spin">
             <Image
               className="block m-auto"
               src={"/tailwind.png"}
@@ -95,7 +99,7 @@ export default function aboutMe() {
           </div>
         </div>
         <div className="flex justify-evenly py-12 items-center text-center">
-          <div>
+          <div className="hover:motion-preset-spin">
             <Image
               className="block m-auto"
               src={"/nextjs.png"}
