@@ -8,11 +8,16 @@ const imageStyle = {
 export default function Home() {
   return (
     <main>
-      <div className="introContainer text-3xl text-center py-6 intro">
-        <h1 className="text-3xl text-center pr-2">
-          Hi, I’m <span className="motion-preset-typewriter-[8]">Dominick</span>
-        </h1>
+      <div className="introContainer text-3xl text-center pt-6 pb-2 intro">
+        <h1 className="text-3xl text-center pr-2">Hello, I’m Dominick!</h1>
         <p className="handEmoji pl-2">👋</p>
+      </div>
+      <div>
+        <h3 className="text-lg text-center">
+          <p className="block m-auto motion-preset-typewriter-[18]">
+            Web Developer!
+          </p>
+        </h3>
       </div>
       <Image
         src={`/pfp.jpg`}
