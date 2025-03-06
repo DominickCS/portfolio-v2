@@ -12,12 +12,10 @@ export default function Home() {
         <h1 className="text-3xl text-center pr-2">Hello, I’m Dominick!</h1>
         <p className="handEmoji pl-2">👋</p>
       </div>
-      <div>
-        <h3 className="text-lg text-center">
-          <p className="block m-auto motion-preset-typewriter-[18]">
-            Web Developer!
-          </p>
-        </h3>
+      <div className="text-center text-sm">
+        <p className="block m-auto motion-preset-typewriter-[14] motion-duration-2000">
+          Web Developer
+        </p>
       </div>
       <Image
         src={`/pfp.jpg`}
